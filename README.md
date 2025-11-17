@@ -6,7 +6,7 @@
 - একই নামে একাধিকবার Declare করলে স্বয়ংক্রিয়ভাবে merge হয়।
 - object এর মতো structure বর্ণনা করতে ব্যবহৃত হয়।
 
-### type:
+### types:
 - & (intersection) ব্যবহার করে টাইপ কম্বাইন করা হয়।
 - একই নাম আবার Declare করলে error দেয়।
 - primitive, union, intersection, tuple সহ সবকিছু represent করতে পারে।
