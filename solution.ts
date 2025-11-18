@@ -61,14 +61,14 @@ function printBookDetails (value: Book) {
 
 
 
- function doesContainNumber<T extends string | number>(value: T, arr3: T[]): boolean {
+ function getUniqueValues<T extends string | number>(arr1: T[], arr2: T[]): T[] {
+
+  function doesContainNumber<T extends string | number>(value: T, arr3: T[]): boolean {
     for (let i = 0; i < arr3.length; i++) {
       if (arr3[i] === value) return true;
     }
     return false;
   }
-
-function getUniqueValues<T extends string | number>(arr1: T[], arr2: T[]): T[] {
 
   const arr3: T[] = [];
  
